@@ -1,8 +1,33 @@
-# Mars Weather Data Analysis
+# Mars Exploration Project
+This project is divided into two parts:
 
-This project involves analyzing weather data collected by the Curiosity rover on Mars. The analysis focuses on understanding temperature variations and atmospheric conditions on Mars, including identifying the coldest and hottest months, and calculating the number of Earth days in a Martian year.
+1. **Mars News Scraping**: Scraping the latest news articles from NASA's Mars exploration site to capture titles and previews.
+2. **Martian Weather Analysis**: Analyzing weather data collected by the Curiosity rover to understand temperature and atmospheric pressure variations on Mars.
 
-## Project Overview
+## Part 1: Mars News Scraping
+
+### Overview
+
+- **Objective**: To scrape the latest news titles and previews from NASA's Mars exploration website.
+- **Data Scraped**:
+  - **Title**: The headline of the news article.
+  - **Preview**: A short preview text or summary of the article.
+
+### Example Data
+
+```json
+[
+    {
+        "title": "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm",
+        "preview": "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."
+    },
+    {
+        "title": "Curiosity Rover's Latest Findings on Mars",
+        "preview": "NASA's Curiosity rover continues to study the Martian surface and has made new discoveries about the planet's ancient environment."
+    }
+]
+```
+## Part 2: Mars Weather Analysis
 
 The main objectives of this project are:
 - To calculate the average minimum temperature by Martian month.
